@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/theming";
+@import 'assets/stylesheets/variables';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+mat-progress-bar {
+  height: 50px;
+}
+
+.accent {
+  color: mat-color($accentPalette);
+}
+
+.primary {
+  color: mat-color($primaryPalette);
+}
+
+.warn {
+  color: mat-color($warnPalette);
+}
+
+.accent {
+  color: #8BC34A;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.full-width {
+  width: 100vh;
+}
+
+.full-size {
+  width: 100vh;
+  height: 100vh;
+}
+
+.full-margin {
+  margin: 20px;
+}
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}

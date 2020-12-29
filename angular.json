@@ -52,6 +52,10 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/stylesheets/material.font.scss",
+              "src/assets/stylesheets/material.icons.scss",
+              "src/assets/stylesheets/mdl.theme.scss",
+              "src/assets/stylesheets/material.theme.scss",
               "src/styles.scss"
             ],
             "scripts": []
@@ -106,5 +110,8 @@
       }
     }
   },
-  "defaultProject": "cash-b-web"
+  "defaultProject": "cash-b-web",
+  "cli": {
+    "analytics": "919d3af2-ff49-49dc-b0d6-9ef3fa55d55d"
+  }
 }
